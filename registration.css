@@ -1,0 +1,26 @@
+.container1{
+    text-align: center;
+    height:100vh;
+    background-image: repeating-radial-gradient(rgb(231, 126, 126),rgb(111, 204, 111),rgb(198, 198, 235));
+    font-style:oblique;
+}
+div{
+    padding:10px
+}
+.forming{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: aquamarine;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 20vh;
+    background-image: repeating-linear-gradient(rgb(182, 9, 9),rgb(10, 224, 10),rgb(21, 21, 231));
+    padding: 20px;
+    border-bottom-left-radius: 500px ;
+    border-top-right-radius: 500px;
+}
+.btn{
+    background-color: rgb(221, 28, 28);
+    padding: 5px;
+    border-radius: 10px;
+}

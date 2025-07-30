@@ -1,0 +1,22 @@
+.container1
+{
+    text-align: center;
+    background-color: rgb(241, 244, 245);
+    height: 120vh;
+    padding-top: 10vh;
+    background-image: linear-gradient(rgb(228, 207, 167),rgb(156, 214, 156),rgb(122, 122, 204));
+    font-family: roboto;
+}
+input{
+    margin: 20px;
+}
+.forming
+{
+    background-image: radial-gradient(rgb(243, 175, 48),rgb(39, 184, 39),rgb(15, 15, 207));
+    margin-left:25vw;
+    margin-right:25vw;
+    border-style: dotted;
+    border-radius: 7000px;
+    border-color: black;
+    padding:200px;
+}
