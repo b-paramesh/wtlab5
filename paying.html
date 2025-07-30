@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="paying.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form name="calc" class="container1" onsubmit="return false;">
+      <h1>Calculater</h1>
+      <div>
+        <input id="inputing" name="input" type="text" />
+      </div>
+      <div>
+        <input class="btn1" type="button" value="1" onclick="calc.input.value+='1'" />
+        <input class="btn1" type="button" value="2" onclick="calc.input.value+='2'" />
+        <input class="btn1" type="button" value="3" onclick="calc.input.value+='3'" />
+        <input class="btn1" type="button" value="+" onclick="calc.input.value+='+'" />
+      </div>
+      <div>
+        <input class="btn1" type="button" value="4" onclick="calc.input.value+='4'" />
+        <input class="btn1" type="button" value="5" onclick="calc.input.value+='5'" />
+        <input class="btn1" type="button" value="6" onclick="calc.input.value+='6'" />
+        <input class="btn1" type="button" value="-" onclick="calc.input.value+='-'" />
+      </div>
+      <div>
+        <input class="btn1" type="button" value="7" onclick="calc.input.value+='7'" />
+        <input class="btn1" type="button" value="8" onclick="calc.input.value+='8'" />
+        <input class="btn1" type="button" value="9" onclick="calc.input.value+='9'" />
+        <input class="btn1" type="button" value="*" onclick="calc.input.value+='*'" />
+      </div>
+      <div>
+        <input class="btn1" type="button" value="/" onclick="calc.input.value+='/'" />
+        <input class="btn1" type="button" value="0" onclick="calc.input.value+='0'" />
+        <input class="btn1" type="button" value="=" onclick="hello(calc.input.value)" />
+        <input class="btn1" type="button" value="%" onclick="calc.input.value+='%'" />
+      </div>
+      <p class="output"></p>
+    </form>
+
+    <script>
+      let y = document.querySelector(".output");
+      let y1 = document.getElementById("inputing");
+      function hello(value) {
+        try {
+          y.textContent = eval(value);
+        } catch (e) {
+          y.textContent = "Error";
+        }
+        y1.value = "";
+      }
+    </script>
+  </body>
+</html>
