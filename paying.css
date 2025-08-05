@@ -1,0 +1,45 @@
+*{
+    padding:0px;
+    margin:0px;
+    background-image:radial-gradient(rgb(198, 125, 125),rgb(130, 130, 194),rgb(107, 167, 107));
+}
+
+.main-container{
+    text-align:center;
+    margin-top: 50px;
+    background-image: linear-gradient(rgb(178, 12, 12),rgb(5, 5, 161),rgb(12, 213, 12));
+    height:100vh;
+    padding:20px;
+}
+
+.heading{
+    margin:20px;
+    font-family: Roboto;
+    color:white;
+}
+
+label{
+    font-family: Roboto;
+    color:white;
+}
+
+input{
+    border-radius:5px;
+    border-width: 0px;
+    height:20px;
+}
+
+button{
+    border-radius: 5px;
+    border-width: 0px;
+    color:white;
+    background-color: rgb(59, 188, 216);
+    padding:8px;
+    margin-right:10px;
+}
+
+p{
+    font-family: Roboto;
+    color:white;
+    margin:10px; 
+}
